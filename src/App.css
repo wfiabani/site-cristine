@@ -1,38 +1,195 @@
-.App {
+@font-face {
+  font-family: f1;
+  src: url(assets/web-font/Montagu_Slab/static/MontaguSlab_120pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: f2;
+  src: url(assets/web-font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+/*
+Breakpoint	Class infix	Dimensions
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+*/
+
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+/* begin row 01 */
+
+.imgCristine{
+  border: 10px #efefef solid;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.about-cristine{
+  text-align: left;
+}
+
+.about-cristine h1,
+.about-cristine h2,
+.about-cristine h3
+{
+  font-family: f1;
+}
+
+.about-cristine h1{
+  color: #C08F97;
+  font-size: 40px;
+}
+.about-cristine h2{
+  color: #DCC1BB;
+  font-size: 30px;
+}
+.about-cristine h3{
+  color: #666;
+  font-size: 14px;
+}
+
+
+.about-cristine p{
+  font-family: f2;
+  color: #ccc;
+  font-size: 16px;
+}
+
+/* end row 01 */
+
+/* begin row 02 */
+.solutions{
+  margin-top: 60px;
+  background-color: #efefef54;
+}
+.solutions h1{
+  color: #C08F97;
+  font-size: 40px;
+  font-family: f1;
+  font-weight: bold;
+}
+.solutions p{
+  color: #DCC1BB;
+  font-size: 21px;
+  font-family: f2;
+}
+.solutions div.solution-item{
+  border-radius: 50%;
+  width: 18vw;
+  height: 18vw;
+  padding: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  background-color: rgb(192, 143, 151, 0.2);
+  color: #C08F97;
+  font-size: 25px;
+  font-family: f1;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10vh;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width:992px) {
+  .solutions div.solution-item{
+    width: 40vw;
+    height: 40vw;
+    font-size: 13px;
+  }
+}
+@media (max-width: 576px) {
+  .solutions div.solution-item{
+    width: 40vw;
+    height: 40vw;
+    font-size: 8px;
+    margin-bottom: 10vh;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* end row 02 */
+
+
+
+/* begin row 03 */
+.container-room{
+  background-image: linear-gradient(to bottom, #fff, #fff, #faf1ee);
 }
+.room{
+  margin-top: 60px;
+}
+.room h1{
+  color: #C08F97;
+  font-size: 40px;
+  font-family: f1;
+  font-weight: bold;
+}
+.room p{
+  color: #DCC1BB;
+  font-size: 21px;
+  font-family: f2;
+}
+
+.imgSpace{
+  width: 36vh;
+  height: 22vh;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  margin: 0px auto -25px auto;
+  border-bottom-right-radius: 70px;
+  border-top-left-radius: 20px;
+  margin-bottom: -35px;
+}
+
+.imgSpace001{background-image: url("./assets/clinica/001.png");}
+.imgSpace002{background-image: url("./assets/clinica/002.jpg");}
+.imgSpace003{background-image: url("./assets/clinica/003.jpg");}
+
+/* end row 03 */
+
+
+
+
+
+/* begin row 04 */
+.container-contact{
+  margin-top: 75px;
+}
+.contact h1{
+  color: #C08F97;
+  font-size: 40px;
+  font-family: f1;
+  font-weight: bold;
+}
+.contact h2{
+  color: #DCC1BB;
+  font-size: 30px;
+}
+.contact p{
+  color: #CCC;
+  font-size: 21px;
+  font-family: f2;
+}
+/* end row 04 */
