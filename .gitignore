@@ -11,6 +11,11 @@
 # production
 #/build
 
+default.conf
+default.conf.original
+nginx.Dockerfile
+Dockerfile
+
 # misc
 .DS_Store
 .env.local
