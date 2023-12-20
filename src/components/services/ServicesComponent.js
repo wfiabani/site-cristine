@@ -12,7 +12,7 @@ const ServicesComponent = () => {
             <br />
             <br />
             <p className="container">
-              Cristine Biazus Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. .
+              Conheça as soluções que temos a lhe oferecer.
             </p>
             <br />
             <br />
@@ -21,52 +21,52 @@ const ServicesComponent = () => {
         <div class="row">
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Preenchimento labial
+              TOXINA BOTULÍNICA
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Toxina Botulínica
+              PREENCHIMENTO LABIAL
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Protocoll
+              BIOESTIMULADORES DE COLÁGENO
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Bioestimuladores de colágeno
+              FIOS DE SUSTENTAÇÃO
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Fios de Sustentação
+              PREENCHIMENTOS FULL FACE
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Lifting sem cortes
+              GERENCIAMENTO DO ENVELHECIMENTO
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Preenchimento Facial
+              PRESCRIÇÃO DE FÓRMULAS
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Bichectomia
+              PEIM (PROCEDIMENTO ESTÉTICO INJETÁVEL PARA MICROVASOS)
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              A lipoaspiração HD ultrassônica da papada
+              TRATAMENTOS CORPORAIS
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
             <div className="solution-item">
-              Tratamento anti-idade
+              TRATAMENTO DE ACNE
             </div>
           </div>
         </div>

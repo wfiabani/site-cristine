@@ -6,12 +6,12 @@ import AboutComponent from './components/about/AboutComponent';
 import ContactComponent from './components/contact/ContactComponent';
 import ServicesComponent from './components/services/ServicesComponent';
 import OurSpaceComponent from './components/ourSpace/OurSpaceComponent';
+//import ChangeCounter from './components/other/ChangeCounter';
 
 
 function App() {
   return (
     <div className="App">
-
 
 
       <header>
