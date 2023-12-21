@@ -187,6 +187,9 @@ Extra extra large	xxl	≥1400px
   color: #DCC1BB;
   font-size: 30px;
 }
+.contact .whatsappButton{
+  max-width: 100%;
+}
 .contact p{
   color: #CCC;
   font-size: 21px;

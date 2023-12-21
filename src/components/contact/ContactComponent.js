@@ -13,7 +13,7 @@ const ContactComponent = () => {
               <p className="container">
                 Estamos localizados na rua Quintano Vieira, 505, sala 02. <br /><br />
                 <div class="row">
-                <a href="https://wa.me/5554999771600"><img src={imgWhatsapp} /></a>
+                    <a href="https://wa.me/5554999997978"><img className="whatsappButton" src={imgWhatsapp} /></a>
                 </div>
                 <br /><br />
 
