@@ -1,3 +1,5 @@
+import imgWhatsapp from "../../assets/whatsapp.png";
+
 const ContactComponent = () => {
     return (
         <div class="container container-contact">
@@ -10,15 +12,17 @@ const ContactComponent = () => {
               <br />
               <p className="container">
                 Estamos localizados na rua Quintano Vieira, 505, sala 02. <br /><br />
+                <div class="row">
+                <a href="https://wa.me/5554999771600"><img src={imgWhatsapp} /></a>
+                </div>
+                <br /><br />
 
                 <h2>@crisbiazus</h2>
               </p>
               <br />
             </div>
           </div>
-          <div class="row">
-            
-          </div>
+          
         </div>
       </div>
     )
