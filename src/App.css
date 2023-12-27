@@ -202,23 +202,3 @@ Extra extra large	xxl	≥1400px
   font-family: f2;
 }
 /* end row 04 */
-
-
-
-
-/* begin modal */
-.modal-header{
-  border-bottom: 1px #efefef solid;
-}
-.modal-title{
-  font-size: 21px;
-  padding-left: 15px;
-}
-.modal-body{
-  color: #CCC;
-  font-size: 16px;
-  font-family: f2;
-  text-align: left;
-  padding: 30px;
-}
-/* end modal */

@@ -1,4 +1,5 @@
 import './App.css';
+import './Modal.css';
 
 // logo
 import LogoComponent from './components/other/LogoComponent';
