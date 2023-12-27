@@ -11,7 +11,7 @@ const OurSpaceComponent = () => {
               <h1>NOSSO ESPAÇO</h1>
               <br />
               <p className="container">
-                Dispomos de um espaço amplo e equipado com o que há de mais moderno na área de estética avançada, garantindo aos nossos clientes conforto, segurança e modernidade.
+                Dispomos de um espaço amplo e equipado com o que há de mais moderno na área de estética avançada, garantindo aos nossos clientes, proporcionando segurança e modernidade.
               </p>
               <br />
             </div>

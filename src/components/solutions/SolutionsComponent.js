@@ -8,7 +8,7 @@ const SolutionsComponent = () => {
             <br />
             <br />
             <br />
-            <h1>SOLUÇÕES</h1>
+            <h1>SERVIÇOS</h1>
             <br />
             <br />
             <p className="container">
